@@ -2,7 +2,7 @@ Summary:	PPhlogger - WWW statistic system
 Summary(pl):	PPhlogger - system statystyk WWW
 Name:		pphlogger
 Version:	2.2.5
-Release:	1
+Release:	0.1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://pphlogger.phpee.com/files/%{name}-%{version}.tar.gz
