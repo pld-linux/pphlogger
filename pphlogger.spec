@@ -1,16 +1,14 @@
 #
-# TODO:	pphlogger.conf
-#
 Summary:	PPhlogger - WWW statistic system
 Summary(pl):	PPhlogger - system statystyk WWW
 Name:		pphlogger
 Version:	2.2.5
-Release:	0.3
+Release:	0.4
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://pphlogger.phpee.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	05e11fd5454ce47919ffc6be929540e4
-#Source1:	%{name}.conf
+Source1:	%{name}.conf
 URL:		http://pphlogger.phpee.com/
 Requires:	php-pcre
 Requires:	webserver
@@ -56,7 +54,7 @@ install upgrade/*.php		$RPM_BUILD_ROOT%{_phpdir}/upgrade
 mv -f $RPM_BUILD_ROOT%{_phpdir}/config.inc.php $RPM_BUILD_ROOT%{_confdir}
 ln -sf %{_confdir}/config.inc.php $RPM_BUILD_ROOT%{_phpdir}/config.inc.php
 
-#install %{SOURCE1} $RPM_BUILD_ROOT/etc/httpd
+install %{SOURCE1} $RPM_BUILD_ROOT/etc/httpd
 
 %post
 if [ -f /etc/httpd/httpd.conf ] && ! grep -q "^Include.*%{name}.conf" /etc/httpd/httpd.conf; then
