@@ -30,7 +30,7 @@ to PPhlogger that is hosted on your server.
 PowerPhlogger to kompletne narzêdzie do utrzymywania liczników.
 Umo¿liwia oferowanie us³ugi licznika dla innych u¿ytkowników serwisu.
 Jest zbudowane w oparciu o PHP i wymaga serwera MySQL. U¿ytkownicy nie
-potrzbuj± obs³ugi PHP na ich serwerze WWW - po prostu przekazuj±
+potrzebuj± obs³ugi PHP na ich serwerze WWW - po prostu przekazuj±
 wymagane dane poprzez JavaScript do PPhloggera uruchamianego na naszym
 serwerze.
 
