@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://pphlogger.phpee.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	05e11fd5454ce47919ffc6be929540e4
-URL:		http://pphlogger.phpbb.com/
+URL:		http://pphlogger.phpee.com/
 Requires:	php-pcre
 Requires:	webserver
 Buildarch:	noarch
