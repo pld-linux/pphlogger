@@ -1,4 +1,3 @@
-#
 Summary:	PPhlogger - WWW statistic system
 Summary(pl):	PPhlogger - system statystyk WWW
 Name:		pphlogger
@@ -6,10 +5,12 @@ Version:	2.2.5
 Release:	0.4
 License:	GPL v2
 Group:		Applications/WWW
+#Source0Download: http://pphlogger.phpee.com/download.php
 Source0:	http://pphlogger.phpee.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	05e11fd5454ce47919ffc6be929540e4
 Source1:	%{name}.conf
 URL:		http://pphlogger.phpee.com/
+Requires:	php
 Requires:	php-pcre
 Requires:	webserver
 Buildarch:	noarch
@@ -20,10 +21,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PowerPhlogger is a complete counter hosting tool. It lets you offer
-counter service to others from your site. It's built on PHP and requires
-a mySQL server. Your members don't need any PHP-support on their webserver.
-They just pass the required data through JavaScript to PPhlogger that is
-hosted on your server.
+counter service to others from your site. It's built on PHP and
+requires a MySQL server. Your members don't need any PHP-support on
+their webserver. They just pass the required data through JavaScript
+to PPhlogger that is hosted on your server.
+
+%description -l pl
+PowerPhlogger to kompletne narzêdzie do utrzymywania liczników.
+Umo¿liwia oferowanie us³ugi licznika dla innych u¿ytkowników serwisu.
+Jest zbudowane w oparciu o PHP i wymaga serwera MySQL. U¿ytkownicy nie
+potrzbuj± obs³ugi PHP na ich serwerze WWW - po prostu przekazuj±
+wymagane dane poprzez JavaScript do PPhloggera uruchamianego na naszym
+serwerze.
 
 %prep
 %setup -q -n %{name}
