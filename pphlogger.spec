@@ -26,7 +26,8 @@ System statystyk WWW.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_phpdir}/{actions,admin,css,img,img/flags,img/colorpages,include,lang,libraries,logs,messages,modules,mysql,ttf_fonts,upgrade}
+install -d $RPM_BUILD_ROOT%{_phpdir}/{actions,admin,css,img,img/flags,img/colorpages,include} \
+	$RPM_BUILD_ROOT%{_phpdir}/{lang,libraries,logs,messages,modules,mysql,ttf_fonts,upgrade}
 
 install *.{php,inc,ini,txt}	$RPM_BUILD_ROOT%{_phpdir}
 install actions/*.php		$RPM_BUILD_ROOT%{_phpdir}/actions
