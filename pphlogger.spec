@@ -1,3 +1,5 @@
+# TODO
+# - webapps
 Summary:	PPhlogger - WWW statistic system
 Summary(pl):	PPhlogger - system statystyk WWW
 Name:		pphlogger
@@ -10,9 +12,9 @@ Source0:	http://pphlogger.phpee.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	05e11fd5454ce47919ffc6be929540e4
 Source1:	%{name}.conf
 URL:		http://pphlogger.phpee.com/
-Requires:	php
-Requires:	php-pcre
+Requires:	php(pcre)
 Requires:	webserver
+Requires:	webserver(php)
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
