@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	PPhlogger - WWW statistic system
-Summary(pl):	PPhlogger - system statystyk WWW
+Summary(pl.UTF-8):   PPhlogger - system statystyk WWW
 Name:		pphlogger
 Version:	2.2.5
 Release:	0.4
@@ -28,11 +28,11 @@ requires a MySQL server. Your members don't need any PHP-support on
 their webserver. They just pass the required data through JavaScript
 to PPhlogger that is hosted on your server.
 
-%description -l pl
-PowerPhlogger to kompletne narzêdzie do utrzymywania liczników.
-Umo¿liwia oferowanie us³ugi licznika dla innych u¿ytkowników serwisu.
-Jest zbudowane w oparciu o PHP i wymaga serwera MySQL. U¿ytkownicy nie
-potrzebuj± obs³ugi PHP na ich serwerze WWW - po prostu przekazuj±
+%description -l pl.UTF-8
+PowerPhlogger to kompletne narzÄ™dzie do utrzymywania licznikÃ³w.
+UmoÅ¼liwia oferowanie usÅ‚ugi licznika dla innych uÅ¼ytkownikÃ³w serwisu.
+Jest zbudowane w oparciu o PHP i wymaga serwera MySQL. UÅ¼ytkownicy nie
+potrzebujÄ… obsÅ‚ugi PHP na ich serwerze WWW - po prostu przekazujÄ…
 wymagane dane poprzez JavaScript do PPhloggera uruchamianego na naszym
 serwerze.
 
