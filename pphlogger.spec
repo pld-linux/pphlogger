@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	PPhlogger - WWW statistic system
-Summary(pl.UTF-8):   PPhlogger - system statystyk WWW
+Summary(pl.UTF-8):	PPhlogger - system statystyk WWW
 Name:		pphlogger
 Version:	2.2.5
 Release:	0.4
