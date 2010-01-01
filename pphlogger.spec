@@ -15,7 +15,7 @@ URL:		http://pphlogger.phpee.com/
 Requires:	php(pcre)
 Requires:	webserver
 Requires:	webserver(php)
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_phpdir		%{_datadir}/%{name}
